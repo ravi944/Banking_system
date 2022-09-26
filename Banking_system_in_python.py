@@ -1,28 +1,3 @@
-# # Sum=(lambda x,y:x+y)
-# # print("sum=",Sum(2,3),Sum(4,5))
-# z="Ravi123"
-# i=0
-# count=0
-# while i<len(z):
-#     if 'a'<z[i]<'z' or 'A'<z[i]<'Z' or '0'<z[i]<'9':
-#         if '0'<z[i]<'9':
-#             count=1
-#     i=i+1
-# if count == 1:
-#     print("string contains numbers also")
-# else:
-#     print("string dosenot contain numbers")
-# lower = 0
-# upper = int(input("Enter the upper value:"))
-# for number in range(lower,upper+1):
-#         for i in range(2,number):
-#             if (number%i)==0:
-#                 break
-#         else:
-#             print(number)
-
-
-
 from ast import And
 import pickle
 
