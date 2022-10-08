@@ -41,20 +41,20 @@ class Account :
     def withdrawAmount(self,amount):
         self.deposit -= amount
     
-    def report(self):
-        print(self.accNo, " ",self.name ," ",self.type," ", self.deposit)
+#     def report(self):
+#         print(self.accNo, " ",self.name ," ",self.type," ", self.deposit)
     
-    def getAccountNo(self):
-        return self.accNo
+#     def getAccountNo(self):
+#         return self.accNo
 
-    def getAcccountHolderName(self):
-        return self.name
+#     def getAcccountHolderName(self):
+#         return self.name
 
-    def getAccountType(self):
-        return self.type
+#     def getAccountType(self):
+#         return self.type
 
-    def getDeposit(self):
-        return self.deposit
+#     def getDeposit(self):
+#         return self.deposit
     
 
 def intro():
